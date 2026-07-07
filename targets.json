@@ -1,0 +1,20 @@
+[
+    {
+      "labels": {
+        "job": "jmx"
+      },
+      "targets": [
+        "<your-kafka-broker-client-here-remove-the-port-9098>:11001",
+        "<your-kafka-broker-client-here-remove-the-port-9098>:11001"
+      ]
+    },
+    {
+      "labels": {
+        "job": "node"
+      },
+      "targets": [
+        "<your-kafka-broker-client-here-remove-the-port-9098>:11002",
+        "<your-kafka-broker-client-here-remove-the-port-9098>:11002"
+      ]
+    }
+  ]
