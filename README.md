@@ -24,7 +24,7 @@ Monitoring (Prometheus + Grafana) tracks Kafka broker and consumer metrics to vi
 | `section2_consumer.py` | Completed Kafka consumer: reads from the Kafka topic and writes each event into HBase (Amazon EMR) for storage, with a `/health` endpoint for readiness checks. |
 | `traffic_generator_lambda.py` | AWS Lambda function that loads sample engagement data from S3 and sends it to the producer at two rates — stable vs. spiked — to simulate realistic and bursty traffic. |
 | `prometheus.yml` / `targets.json` | Prometheus monitoring configuration for scraping Kafka broker and consumer metrics. |
-| `engagement_data.csv` | Sample social media engagement data (post ID, user ID, likes, comments, timestamp) used to simulate realistic traffic. |
+| `engagement_data_sample.csv` | A 500-row sample of the original 6,000-row engagement dataset (post ID, user ID, likes, comments, timestamp) used to simulate realistic traffic. Trimmed here for repo size; full file used at runtime. |
 | `submit.py` | The course's automated grading submission script. **Redacted** before publishing here — see note below. |
 
 The `_OG` (original) files are kept alongside the completed versions to show the before/after — what was template versus what was implemented.
