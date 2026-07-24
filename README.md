@@ -1,6 +1,4 @@
-# MP6: Kafka Streaming Pipeline for Social Engagement Data
-
-**Course:** CS 498 Cloud Computing Applications — University of Illinois Urbana-Champaign, MCS-DS
+# Kafka Streaming Pipeline for Social Engagement Data
 
 ## Overview
 
